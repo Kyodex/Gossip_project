@@ -1,0 +1,22 @@
+
+<h1>Listing GOSSSIP</h1>
+<link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+<%= link_to 'Create', new_gossip_path %>
+<table>
+  <tr>
+    <th>anonymous_author :</th>
+    <th> Content</th>
+  </tr>
+
+  <% @gossips.each do |gossip| %>
+    <tr>
+      <td><%= gossip.anonymous_author %></td>
+      <td><%= gossip.content %></td>
+      <td><%= link_to 'Show', gossip_path(gossip) %></td>
+      <td><%= link_to 'Edit', edit_gossip_path(gossip) %></td>
+      <td><%= link_to 'Destroy', gossip_path(gossip),
+            method: :delete,
+            data: { confirm: 'REALLY ?????' } %></td>
+    </tr>
+  <% end %>
+</table>
