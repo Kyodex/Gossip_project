@@ -2622,7 +2622,7 @@ Did you mean?  gossip_url
                @gossips):
     1: 
     2: <h1>Listing GOSSSIP</h1>
-    3: <link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+    3: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.2.8.min.css"/>
     4:     <td><%= link_to 'Create', new_gossip_path(gossip) %></td>
     5: <table>
     6:   <tr>
@@ -2650,7 +2650,7 @@ Did you mean?  gossip_url
                @gossips):
     1: 
     2: <h1>Listing GOSSSIP</h1>
-    3: <link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+    3: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.2.8.min.css"/>
     4:     <td><%= link_to 'Create', new_gossip_path(gossip) %></td>
     5: <table>
     6:   <tr>
@@ -2678,7 +2678,7 @@ Did you mean?  gossip_url
                @gossips):
     1: 
     2: <h1>Listing GOSSSIP</h1>
-    3: <link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+    3: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.2.8.min.css"/>
     4: <%= link_to 'Create', new_gossip_path(gossip) %>
     5: <table>
     6:   <tr>
@@ -2717,7 +2717,7 @@ Did you mean?  gossip_url
   [1m[36mCACHE Gossip Load (0.2ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" LIMIT ?[0m  [["LIMIT", 11]]
     1: 
     2: <h1>Listing GOSSSIP</h1>
-    3: <link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+    3: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.2.8.min.css"/>
     4: <%= link_to 'Create', new_gossip_path(gossip) %>
     5: <table>
     6:   <tr>
@@ -2745,7 +2745,7 @@ Did you mean?  gossip_url
   [1m[36mCACHE Gossip Load (0.0ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" LIMIT ?[0m  [["LIMIT", 11]]
     1: 
     2: <h1>Listing GOSSSIP</h1>
-    3: <link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+    3: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.2.8.min.css"/>
     4: <%= link_to 'Create', new_gossip_path(gossip) %>
     5: <table>
     6:   <tr>
@@ -2762,7 +2762,7 @@ Did you mean?  gossip_url
                @gossips):
     1: 
     2: <h1>Listing GOSSSIP</h1>
-    3: <link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+    3: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.2.8.min.css"/>
     4: <%= link_to 'Create', new_gossip_path(gossip) %>
     5: <table>
     6:   <tr>
